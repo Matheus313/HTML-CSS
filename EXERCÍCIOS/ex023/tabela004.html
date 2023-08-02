@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 300px;
+            height: 150px;
+            padding: 10px;
+            border-collapse: separate;
+            text-align: center;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 5px;
+        }
+        td, th{
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>ESTUDOS DE TABELAS</h1>
+    <table>
+        <caption>
+            Filmes favoritos
+        </caption>
+        <thead>
+            <th scope="col">Grupos</th>
+            <th scope="col">Nomes</th>
+            <th scope="col" colspan="3">Filmes</th>
+
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <th scope="row">Homens</th>
+            </tr>
+
+        </tbody>
+
+    </table>
+    
+</body>
+</html>
