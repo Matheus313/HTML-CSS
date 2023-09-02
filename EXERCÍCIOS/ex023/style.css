@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 600px;
+    border-collapse: collapse;
+}
+caption{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 8px;
+
+}
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+tr.destaque{
+    background-color: yellow;
+
+}
+.cnome{
+    background-color: aqua;
+}
+.cgrupo{
+    background-color: brown;
+}
